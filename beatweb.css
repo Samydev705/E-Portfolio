@@ -1,0 +1,120 @@
+/* Reset some default styles */
+body,
+h1,
+h2 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+p {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h3 {
+  font-family: "Courier New", Courier, monospace;
+  font-style: bolder;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: white;
+  text-align: center;
+}
+
+/* Header styling */
+header {
+  background: #222;
+  padding: 20px;
+  font-size: 24px;
+}
+
+/* Navigation bar */
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  background: #333;
+  padding: 10px;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* Sections styling */
+.category {
+  padding: 50px;
+  margin: 20px auto;
+  width: auto;
+ background-color: #2a0d02;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  border-radius: 10px;
+
+  opacity: 0.1;
+  transform: translateY(20px);
+  animation: fadeInUp 1s ease-in-out forwards;
+}
+
+/* Animation for categories */
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Footer */
+footer {
+  background: #222;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.beat {
+  background: #130101;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+audio {
+  width: 100%;
+  margin: 10px 0;
+}
+
+button {
+  background: #ff6600;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #d13800;
+  transform: translateY(-1px);
+  transition: 0.1s;
+}
+
+button:active {
+  color: #000000;
+}
